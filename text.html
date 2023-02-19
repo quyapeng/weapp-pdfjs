@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/pdfh5.css" />
+  </head>
+  <body>
+    <div id="demo"></div>
+    <script src="js/pdf.js" type="text/javascript" charset="utf-8"></script>
+    <script
+      src="js/pdf.worker.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script
+      src="js/jquery-3.6.0.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script src="js/pdfh5.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      var pdfh5 = new Pdfh5("#demo", {
+        pdfurl: "https://image.qlion.com/public/temp/XXN1M9W1%20.pdf",
+      });
+      // $.ajax({
+      //   url: "https://hxt-content.oss-cn-shanghai.aliyuncs.com/public/temp/M6W3D5.pdf", //假设这是pdf文件流的请求接口
+      //   type: "get",
+      //   withCredentials: true,
+      //   mimeType: "text/plain; charset=x-user-defined", //jq ajax请求文件流的方式
+      //   success: function (data) {
+      //     var pdfh5 = new Pdfh5("#demo", {
+      //       data: data,
+      //     });
+      //   },
+      // });
+    </script>
+  </body>
+</html>

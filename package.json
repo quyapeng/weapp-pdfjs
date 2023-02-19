@@ -1,0 +1,23 @@
+{
+  "name": "weapp-pdfjs",
+  "version": "1.0.0",
+  "description": "weapp-pdfjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quyapeng/weapp-pdfjs.git"
+  },
+  "keywords": [],
+  "author": "quyapeng",
+  "license": "ISC",
+  "bin":{
+    "weapp-pdfjs":"index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/quyapeng/weapp-pdfjs/issues"
+  },
+  "homepage": "https://github.com/quyapeng/weapp-pdfjs#readme"
+}
